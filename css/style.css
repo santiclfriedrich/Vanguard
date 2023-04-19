@@ -167,11 +167,11 @@ footer {
 
 footer div {
   display: flex;
-  width: 50%;
+
   justify-content: center;
 }
 
 footer div img {
-  width: 71.5%;
+  width: 96%;
   margin-bottom: 1.5rem;
 }
