@@ -16,6 +16,10 @@
   background-color: #5b9bd3;
 }
 
+.header a {
+  text-decoration: none;
+}
+
 h1 {
   color: white;
   font-weight: bold;
@@ -28,6 +32,7 @@ h1 {
   font-weight: bold;
   display: flex;
   justify-content: flex-end;
+  position: static;
 }
 
 header .secciones {
@@ -109,6 +114,12 @@ h2 {
   text-align: center;
 }
 
+#news-feed .news-block .left-block article a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
 #news-feed .news-block .left-block article img {
   width: 100%;
 }
@@ -131,10 +142,20 @@ h2 {
   font-weight: bolder;
 }
 
+.right-block-texta {
+  text-decoration: none;
+  color: black;
+}
+
 .right-block-textwo {
   font-size: 1.1rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
+}
+
+.right-block-textatwo {
+  text-decoration: none;
+  color: black;
 }
 
 .right-block article img {
@@ -157,6 +178,57 @@ h2 {
   font-weight: bolder;
   position: relative;
   left: 25%;
+}
+
+/* ----------------------------PAGINA DE DJ------------------------*/
+
+#news-feed-dj {
+  width: 50%;
+}
+
+#news-feed-dj .news-block-dj-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+#news-feed-dj .news-block-dj-img img {
+  width: 75%;
+}
+
+#news-feed-dj .news-block-dj-text {
+  margin: 1rem 0;
+  color: black;
+  font-size: 1.4rem;
+}
+
+#news-feed-dj .news-block-dj-text-negrita {
+  font-weight: bolder;
+}
+
+/* ----------------------------CIERRE PAGINA DE DJ------------------------*/
+
+/*----------------------------PAGINA DE DOLAR---------------------------*/
+.news-block-dollar-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.news-block-dollar-text {
+  margin: 1rem 0;
+  color: #485d76;
+  font-weight: bold;
+  border-bottom: 2px solid #485d76;
+  font-size: 1rem;
+}
+
+.news-block-dollar-title h3 {
+  font-size: 1.75rem;
+  margin-top: 2%;
+  font-weight: bold;
 }
 
 /* ----------------------------FOOTER------------------------*/
